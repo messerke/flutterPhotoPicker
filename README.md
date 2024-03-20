@@ -1,16 +1,12 @@
 # photo_timer_app
 
-A new Flutter project.
+A new Flutter project for testing the functionality of getting the pictures from the phone storage.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- uses Flutter
+- works on Android (not tested on iOS)
+- after launching you have 10 seconds to create your photos
+- after 10 seconds the app will show your created photos
+- check the console logs for permission grantedness
+- if the app does not ask for permissions, add permissions to it by hand (settings -> apps -> <select the app> -> photos)
